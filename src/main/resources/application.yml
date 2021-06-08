@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: discovery-server
+  r2dbc:
+    url: r2dbc:postgresql://localhost:5432
+    name: iot_data
+    username: postgres
+    password: postgres
+
+server:
+  port: 8092
+
